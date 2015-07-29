@@ -1,4 +1,4 @@
-# deanius:bound
+# deanius:bound [![Build Status](https://secure.travis-ci.org/deanius/meteor-bound.png?branch=master)](https://travis-ci.org/deanius/meteor-bound)
 
 Allow `console.bound.log` as an alternative to `console.log.bind(console)`, and generalize to all objects.
 
