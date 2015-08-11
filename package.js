@@ -1,7 +1,7 @@
 Package.describe({
   name: "deanius:bound",
   summary: "Allow `console.bound.log` as an alternative to `console.log.bind(console)`, for example.",
-  version: "0.1.0",
+  version: "0.1.1",
   git: "https://github.com/deanius/meteor-bound",
   debugOnly: true
 });
