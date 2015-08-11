@@ -4,18 +4,21 @@
   "description": "Manage settings, testing, deployment of your meteor app",
   "scripts": {
     "start": "meteor --port 3121 test-packages ./",
-    "test": "meteor run --once",
-    "deploy": "meteor deploy your-site.meteor.com",
-    "view": "open http://your-site.meteor.com"
+    "test": "spacejam test-packages ./"
   },
   "repository": {
     "type": "git",
     "url": "https://gist.github.com/e994ae26175abfa9d27a.git"
   },
   "keywords": [
-    "meteor", "npm", "package.json"
+    "meteor",
+    "npm",
+    "package.json"
   ],
   "author": "Dean Radcliffe",
   "license": "MIT",
-  "homepage": "https://gist.github.com/deanius/e994ae26175abfa9d27a"
+  "homepage": "https://gist.github.com/deanius/e994ae26175abfa9d27a",
+  "devDependencies": {
+    "spacejam": "^1.2.2"
+  }
 }
